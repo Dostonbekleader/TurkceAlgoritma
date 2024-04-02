@@ -20,11 +20,11 @@ public class lesson_2 {
         }
 
         int orta = dizi.length / 2;
-        int[] solDizi = new int[orta];
-        int[] sagDizi = new int[dizi.length - orta];
+        int[] sol_dizi = new int[orta];
+        int[] sag_dizi = new int[dizi.length - orta];
 
         for (int i = 0; i < orta; i++) {
-            solDizi[i] = dizi[i];
+            sol_dizi[i] = dizi[i];
         }
 
         for (int i = orta; i < dizi.length; i++) {
